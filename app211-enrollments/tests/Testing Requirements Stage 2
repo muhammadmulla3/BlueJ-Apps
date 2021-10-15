@@ -1,0 +1,85 @@
+Course computing = new Course("BT1CTG1", "BSc Computing");
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+Student student1 = new Student("Muhammad Mulla", 100188570);
+student1.print();
+ Student ID: 100188570 Name: Muhammad Mulla
+student1.enrol(computing);
+student1.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+Module co452 = new Module("CO452", "Programming Concepts");
+co452.getTitle()
+    returned String "Programming Concepts"
+co452.getCode()
+    returned String "CO452"
+co452.print();
+ Module  Code: CO452: Programming Concepts
+
+co452.getCode()
+    returned String "CO452"
+co452.print();
+ Module  Code: CO452: Programming Concepts
+
+co452.getTitle()
+    returned String "Programming Concepts"
+co452.getCredit()
+    returned int 0
+co452.setCredit(30);
+Course web = new Course("BT12", "BSc (Hons) Computing & Web");
+Module module1 = new Module("CO452", "Programming");
+web.addModule(module1);
+Course web = new Course("BT12", "web");
+Module programming = new Module("CO452", "Programming Concepts");
+web.addModule(programming);
+programming.print();
+ Module  Code: CO452: Programming Concepts Credit 0
+
+programming.print();
+ Module  Code: CO452: Programming Concepts Credit 0
+
+web.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT12: web
+
+ Module  Code: CO452: Programming Concepts Credit 0
+
+Course computing = new Course("BT1CTG1", "BSc Computing");
+Module module1 = new Module("CO452", "Programming Concepts");
+module1.print();
+ Module  Code: CO452: Programming Concepts Credit 0
+
+module1.setCredit(15);
+module1.print();
+ Module  Code: CO452: Programming Concepts Credit 15
+
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+    Exception occurred.
+computing.addModule(module1);
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc Computing
+
+ Module  Code: CO452: Programming Concepts Credit 15
+

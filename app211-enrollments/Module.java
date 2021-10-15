@@ -8,8 +8,8 @@
  */
 public class Module
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    // initialising variables for Code, Title and Credit
+
     private String code;
     private String title;
     private int credit;
@@ -33,19 +33,19 @@ public class Module
      */
     public String getCode()
     {
-        // put your code here
+        // Returning the code value
         return this.code;
          
     } 
     public String getTitle()
     {
-        // put your code here
+        // Returning the title value
         return this.title;
          
     }
     public int getCredit()
     {
-        // put your code here
+        // Returning the credit value
         return this.credit;
          
     }
@@ -61,9 +61,7 @@ public class Module
      */
     public void print()
     {
-        //printHeading();
-        
-        System.out.println(" Module  Code: " + code + ": " + title
+            System.out.println(" Module  Code: " + code + ": " + title
         + " Credit " + credit );
         System.out.println();
     }
