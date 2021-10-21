@@ -14,7 +14,7 @@ public class Course
     private String code;
     // The full title including qualification and subject
     private String title;
-    
+    // Allows a module to be added to a course
     private Module module;
       
     /**

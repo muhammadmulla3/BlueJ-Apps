@@ -8,14 +8,15 @@
  */
 public class Module
 {
-    // initialising variables for Code, Title and Credit
-
+    // code variable
     private String code;
+    // title variable
     private String title;
+    // credit variable
     private int credit;
 
-    /**
-     * Constructor for objects of class Module
+    
+     /** Constructor for objects of class Module
      */
     public Module(String code, String title)
     {
