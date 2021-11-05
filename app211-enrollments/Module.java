@@ -8,6 +8,7 @@
  */
 public class Module
 {
+    private int x;
     // code variable
     private String code;
     // title variable
@@ -28,8 +29,7 @@ public class Module
 
     /**
      * An example of a method - replace this comment with your own
-     *
-     * @param   
+     *   
      * @return    code
      */
     public String getCode()
@@ -62,8 +62,7 @@ public class Module
      */
     public void print()
     {
-            System.out.println(" Module  Code: " + code + ": " + title
-        + " Credit " + credit );
+            System.out.println(" Module  Code: " + code + ": " + title);
         System.out.println();
     }
 }
