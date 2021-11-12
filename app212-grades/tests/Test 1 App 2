@@ -1,0 +1,78 @@
+Student muhammad = new Student();
+Course computing = new Course();
+Module co452 = new Module("CO452", "Programming Concepts");
+computing.addModule(co452);
+muhammad.enrol(computing);
+muhammad.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 100188570, Muhammad
+
+ Course G400: BSc Computing
+
+ CO452: 	Programming Concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Student muhammad = new Student();
+Course computing = new Course();
+Module co452 = new Module("CO452", "Programming Concepts");
+computing.addModule(co452);
+muhammad.enrol(computing);
+ModuleMark muhammadCo452Mark = new ModuleMark(co452);
+muhammadCo452Mark.setMark(64);
+muhammad.addMark(muhammadCo452Mark);
+muhammad.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 100188570, Muhammad
+
+ Course G400: BSc Computing
+
+ CO452: 	Programming Concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Student muhammad = new Student();
+muhammad.print();
+ Student ID: 100188570, Muhammad
+Course computing = new Course();
+muhammad.enrol(computing);
+muhammad.printCourse();
+ Student ID: 100188570, Muhammad
+
+ Course G400: BSc Computing
+Module co452 = new Module("CO452", "Programming Concepts");
+computing.addModule(co452);
+ModuleMark muhammadCo452Mark = new ModuleMark(co452);
+muhammadCo452Mark.setMark(70);
+muhammad.addMark(muhammadCo452Mark);
+muhammad.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 100188570, Muhammad
+
+ Course G400: BSc Computing
+
+ CO452: 	Programming Concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
