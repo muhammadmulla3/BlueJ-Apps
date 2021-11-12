@@ -1,0 +1,38 @@
+Student muhammad = new Student();
+Course computing = new Course();
+muhammad.enrol(computing);
+computing.print();
+
+ Course G400: BSc Computing
+
+ CO452: 	Programming Concepts	  15 credits
+ CO456: 	Web development	  15 credits
+ CO450: 	Computer Architecture	  15 credits
+ CO454: 	Digital Technology	  15 creditsmuhammad.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 100188570, Muhammad
+
+ Course G400: BSc Computing
+
+ CO452: 	Programming Concepts	  15 credits
+ CO456: 	Web development	  15 credits
+ CO450: 	Computer Architecture	  15 credits
+ CO454: 	Digital Technology	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	75	A
+
+ CO456: 	Web development	  15	65	B
+
+ CO450: 	Computer Architecture	  15	55	C
+
+ CO454: 	Digital Technology	  15	45	D
+
+
+ Final Course Grade = B
