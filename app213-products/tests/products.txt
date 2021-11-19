@@ -1,0 +1,37 @@
+Product iphone1 = new Product(101, "iPhone1 ");
+Product iphone2 = new Product(102, "iPhone 2");
+Product iphone3 = new Product(103, "iPhone 3");
+Product iphone4 = new Product(104, "iPhone 4");
+Product iphone5 = new Product(105, "iPhone 5 ");
+Product iphone6 = new Product(106, "iPhone 6 ");
+Product iphone7 = new Product(107, "iPhone 7");
+Product iphone8 = new Product(108, "iPhone 8");
+Product iphone9 = new Product(109, "iPhone 9");
+Product iphone10 = new Product(110, "iPhone 10");
+StockList phoneList = new StockList();
+phoneList.add(iphone1);
+phoneList.add(iphone2);
+phoneList.add(iphone3);
+phoneList.add(iphone4);
+phoneList.add(iphone5);
+phoneList.add(iphone6);
+phoneList.add(iphone7);
+phoneList.add(iphone8);
+phoneList.add(iphone9);
+phoneList.add(iphone10);
+phoneList.print();
+
+ Muhammad's Stock List
+ ====================
+
+ ID 101: iPhone1  stock level: 0
+ ID 102: iPhone 2 stock level: 0
+ ID 103: iPhone 3 stock level: 0
+ ID 104: iPhone 4 stock level: 0
+ ID 105: iPhone 5  stock level: 0
+ ID 106: iPhone 6  stock level: 0
+ ID 107: iPhone 7 stock level: 0
+ ID 108: iPhone 8 stock level: 0
+ ID 109: iPhone 9 stock level: 0
+ ID 110: iPhone 10 stock level: 0
+
