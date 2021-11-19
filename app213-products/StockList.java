@@ -4,8 +4,8 @@ import java.util.ArrayList;
  * Manage the stock in a business.
  * The stock is described by zero or more Products.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Muhammad Mulla 
+ * @version 1 (17/11/2021)
  */
 public class StockList
 {
@@ -44,26 +44,18 @@ public class StockList
      * @param id The ID of the product.
      * @param amount The amount to increase the quantity by.
      */
-    public void buyProduct(int productID, int amount)
+     public void buyProduct(int productID, int amount)
     {
         Product product = findProduct(productID);
-                if(product != null) 
+        
+        if(product == null)
         {
-            if(product.getQuantity() > 1000)
-            {
-                product.increaseQuantity(amount);
-                System.out.println(" Bought " + amount + " of " 
-                + product.getName());
-            }
-            else
-            {
-                System.out.println("Not enough shelf space for" + product.
-                getName() + ", please sell the existing stock ");
-            }
         }
         else
         {
-            System.out.println("Could not find product");
+            product.increaseQuantity(amount);
+            System.out.println("NOT FOUND");
+            
         }
     }
     
@@ -116,7 +108,7 @@ public class StockList
             else
             {
                 System.out.println("The product " + product.
-                getName() + "is out of stock");
+                getName() + " is out of stock");
             }
         }
         else
