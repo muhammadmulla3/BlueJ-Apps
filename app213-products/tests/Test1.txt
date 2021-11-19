@@ -1,0 +1,24 @@
+Product iphone = new Product(101, "iPhone 8");
+iphone.print();
+ ID 101: iPhone 8 stock level: 0
+iphone.decreaseQuantity(40);
+iphone.print();
+ ID 101: iPhone 8 stock level: 0
+iphone.increaseQuantity(60);
+iphone.print();
+ ID 101: iPhone 8 stock level: 60
+iphone.decreaseQuantity(30);
+iphone.print();
+ ID 101: iPhone 8 stock level: 30
+Product iphone2 = new Product(102, "iPhone 11");
+StockList phones = new StockList();
+phones.add(iphone);
+phones.add(iphone2);
+phones.print();
+
+ Muhammad's Stock List
+ ====================
+
+ ID 101: iPhone 8 stock level: 30
+ ID 102: iPhone 11 stock level: 0
+
