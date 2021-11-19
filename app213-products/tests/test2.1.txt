@@ -1,0 +1,67 @@
+StockList phoneList = new StockList();
+StockDemo phoneDemo = new StockDemo();
+
+ Muhammad's Stock List
+ ====================
+
+ ID 101: iPhone 1 stock level: 0
+ ID 102: iPhone 2 stock level: 0
+ ID 103: iPhone 3 stock level: 0
+ ID 104: iPhone 4 stock level: 0
+ ID 105: iPhone 5 stock level: 0
+ ID 106: iPhone 6 stock level: 0
+ ID 107: iPhone 7 stock level: 0
+ ID 108: iPhone 8 stock level: 0
+ ID 109: iPhone 9 stock level: 0
+ ID 110: iPhone 10 stock level: 0
+
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+NOT FOUND
+
+ Muhammad's Stock List
+ ====================
+
+ ID 101: iPhone 1 stock level: 5
+ ID 102: iPhone 2 stock level: 11
+ ID 103: iPhone 3 stock level: 10
+ ID 104: iPhone 4 stock level: 16
+ ID 105: iPhone 5 stock level: 7
+ ID 106: iPhone 6 stock level: 14
+ ID 107: iPhone 7 stock level: 13
+ ID 108: iPhone 8 stock level: 2
+ ID 109: iPhone 9 stock level: 1
+ ID 110: iPhone 10 stock level: 10
+
+The product iPhone 1 is out of stock
+ Sold 6 of iPhone 2
+ Sold 4 of iPhone 3
+ Sold 10 of iPhone 4
+The product iPhone 5 is out of stock
+ Sold 6 of iPhone 6
+ Sold 2 of iPhone 7
+The product iPhone 8 is out of stock
+The product iPhone 9 is out of stock
+ Sold 7 of iPhone 10
+
+ Muhammad's Stock List
+ ====================
+
+ ID 101: iPhone 1 stock level: 5
+ ID 102: iPhone 2 stock level: 5
+ ID 103: iPhone 3 stock level: 6
+ ID 104: iPhone 4 stock level: 6
+ ID 105: iPhone 5 stock level: 7
+ ID 106: iPhone 6 stock level: 8
+ ID 107: iPhone 7 stock level: 11
+ ID 108: iPhone 8 stock level: 2
+ ID 109: iPhone 9 stock level: 1
+ ID 110: iPhone 10 stock level: 3
+
